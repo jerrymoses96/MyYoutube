@@ -28,7 +28,6 @@ const Header = () => {
     const json = await data.json();
 
     setsearchSuggestion(json[1]);
-    console.log(searchSuggestion);
   };
 
   const dispatch = useDispatch();
